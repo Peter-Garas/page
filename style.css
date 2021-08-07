@@ -149,7 +149,3 @@ p, span {
   background-color: #444444;
 }
 
-.btn:focus {
-  outline: none;
-  box-shadow: none;
-}
