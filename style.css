@@ -170,3 +170,6 @@ p, span {
     -webkit-box-shadow: inset 0 0 6px #444444; 
 }
 
+.modal-header, .modal-body {
+  background-color: #444444;
+}
