@@ -1,0 +1,143 @@
+.home {
+  margin-left:  clamp(50px, 10vw, 100px);
+}
+
+.menu-item {
+  padding: clamp(.1rem, 2vh, .20rem);
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.829);
+}
+
+#navbar1 {
+  margin-right: clamp(10px, 10vw, 100px);
+}
+
+#hero-section {
+  background-image: 
+    linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.5)),
+    url(img/Hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: clamp(100px, 75vh, 250px) 0;
+}
+
+#profile-img {
+  margin: clamp(10px, 5vh, 20px) auto;
+  background-image: url(img/profile-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 20px solid rgb(48, 46, 46);
+  border-radius: 50%;
+  width: clamp(250px, 20vw, 300px);
+  height: clamp(250px, 20vw, 300px);
+} 
+
+h2 {
+  font-family: sans-serif;
+  color: #DDDDDD;
+  text-align: center;
+  font-size: clamp(30px, 10vw, 80px);
+  text-shadow: 3px 6px 5px black; 
+}
+
+h3, h5, a {
+  font-family: sans-serif;
+  color: #DDDDDD;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: clamp(20px, 5vw, 35px); 
+}
+
+.nav-item a, .navbar a {
+  font-family: sans-serif;
+  color: #DDDDDD;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+#mission-section {
+  background-color: #171717;
+  padding: clamp(50px, 20vh, 100px) 0;
+}
+
+
+p, span {
+  font-family: sans-serif;
+  font-size: clamp(15px, 2vw, 20px);
+  color: #DDDDDD;
+  text-align: center;
+}
+
+
+#skills-section img {
+  width: clamp(10px, 60vw, 100px);
+  filter: grayscale(70%);
+}
+ 
+
+#skills-section {
+  background-color: #444444;
+  padding: clamp(20px, 20vh, 100px) 0;
+}
+
+#skills-section p {
+  width: clamp(100px, 60vw, 200px);
+  margin-left: auto;
+  margin-right: auto;
+}
+#inspiration-section {
+  background-color: #171717;
+  padding: clamp(20px, 20vh, 100px) 0;
+}
+
+
+#carouselCaptions::after {
+  content: "";
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.1));
+  position: absolute;
+  height: 100%;
+  bottom: 0;  
+  left: 0;  
+  right: 0;
+}
+
+.carousel-item img  { 
+  width: clamp(300px, 60vw, 600px);
+  height: clamp(300px, 60vw, 600px);
+  object-fit:cover;
+}
+
+.carousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#contact-section {
+  background-color: #444444;
+  padding: clamp(100px, 20vh, 100px) 0;
+}
+
+#contact-section .bi {
+  font-size: clamp(5px, 10vw, 50px);
+}
+
+#footer-section {
+  background-color: #171717;
+  padding: 5px;
+}
+
+#footer-section h5 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.carousel-caption p, span {
+  text-shadow: 1px 2px 2px black;
+}
