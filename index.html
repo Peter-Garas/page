@@ -161,10 +161,8 @@
                 <div class="card-body">
                   <h5 class="card-title">Magic 8-ball Game</h5>
                   <p class="card-text">This progect is a magic 8-ball game I created using HTML, CSS, and JavaStript. Ask a question and the ball will reveal the answer</p>
-                </div>
-                <div class="d-flex justify-content-center">
-                  <a href="projects/project1/project1.html" target="_blank" class="btn btn-primary">Go To Project</a>
-                </div>
+                </div>                
+                <button type="button" class="btn btn-primary" onclick="launchProject('project1.html')" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Launch Project</button>                
               </div>
             </div>
             <div class="col-sm-12 col-lg-4 d-flex justify-content-center">
@@ -174,9 +172,7 @@
                   <h5 class="card-title">High/Low Game</h5>
                   <p class="card-text">This poject is a high/low gueesing game. Where the user gusses a randomly ganaerated number. The user wins when the exact number is found.</p>
                 </div>
-                <div class="d-flex justify-content-center">
-                  <a href="projects/project2/project2.html" target="_blank" class="btn btn-primary">Go To Project</a>
-                </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Launch Project</button>
               </div>
             </div>
             <div class="col-sm-12 col-lg-4 d-flex justify-content-center">
@@ -186,14 +182,26 @@
                   <h5 class="card-title">Match Game</h5>
                   <p class="card-text">This project is a match game. Where the user tries to match all duplicate imged. Ther user winnes when all matches are found.</p>
                 </div>
-                <div class="d-flex justify-content-center">
-                  <a href="projects/project3/project3.html" target="_blank" class="btn btn-primary">Go To Project</a>
-                </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Launch Project</button>  
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe id="frame" src="index.html"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
       
       <!-- Inspiration Section -->
       <section id="inspiration-section" class="container-fluid">
