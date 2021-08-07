@@ -36,7 +36,5 @@ h6 {
   font-size: 30px;
 }
 
-#guess-input {
-  width: clamp(45px, .3vw, 100px);
-}
+
 
