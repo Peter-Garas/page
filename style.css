@@ -145,7 +145,14 @@ p, span {
 .carousel-caption p, span {
   text-shadow: 1px 2px 2px black;
 }
+
 .card {
   background-color: #444444;
 }
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 
