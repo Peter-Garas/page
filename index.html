@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- Remember to replace this with your title! -->
+	<title>Peter Garas Portfolio</title>
+
+	<!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+	<link href="style.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
+
+	<!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+    https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+    -->
+	<!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+
+  
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient sticky-top" id="navbar-spy">    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#hero-section">
+        <i class="bi bi-house-door home"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav ms-auto mb-2 mb-ms-0">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="#mission-section">Mission</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="#skills-section">Skills</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="#inspiration-section">Inspiration</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+      <!-- Hero section -->       
+      <section id="hero-section" class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="container">
+                <div id="profile-img"></div>
+                <h2>Peter Garas</h2>
+                <h3>Professional Coder</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mission/Meet-me section -->
+      <section id="mission-section" class="conatiner-fluid">
+        <h3>My Misson</h3>
+        <div class="container">      
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-7">
+              <img class="img-fluid" src="img/Target.jpg">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
+              <p class="">
+                My mission is to always keep learning and growing my knowledge through the years of my life. Furthermore, having a solid understanding of multiple programming languages will aid me in my mission of becoming a professional coder in multiple programming languages.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills-section" class="container-fluid">
+        <h3>Skills</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="skill-container d-flex justify-content-center">
+                <img class="" src="img/html5.png" alt="HTML logo">
+              </div>
+              <div >
+                <p>Structuring the web's content using modern semantic HTML.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="skill-container d-flex justify-content-center">
+                <img class="skill-image" src="img/css.png" alt="CSS logo">
+              </div>
+              <div>
+                <p>Presenting beautiful web designs and interactions using modern CSS.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="skill-container d-flex justify-content-center">
+                <img class="skill-image" src="img/bootstrap.png" alt="bootstrap logo">
+              </div>
+              <div>
+                <p>Rapidly developing responsive websites using the web's most popular framework.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="skill-container d-flex justify-content-center">
+                <img class="skill-image" src="img/javasript.png" alt="javascript logo">
+              </div>
+              <div>
+                <p>Making interactive experiences, games, web apps, and more using javascript</p>
+              </div>        
+            </div>
+         </div>
+       </div>
+      </section>
+        
+      <!-- Inspiration Section -->
+      <section id="inspiration-section" class="container-fluid">
+        <h3>Inspiration</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/road.jpg" class="d-block w-100" alt="image of road">
+                    <div class="carousel-caption">
+                      <p>Straight roads dont make skillful drivers.</p>
+                      <span>Paulo Coelho</span>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/desert.jpg" class="d-block w-100" alt="image of desert">
+                    <div class="carousel-caption">
+                      <p>Difficult roads often leads to beautiful destinations.</p>
+                      <span>Zig Ziglar </span>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/sunset.jpg" class="d-block w-100" alt="image of sunset">
+                    <div class="carousel-caption">
+                      <p>The greatest teacher failure is.</p>
+                      <span>The Great Master Yoda</span>
+                    </div>
+                  </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact-section" class="container-fluid">
+        <div class="container">
+          <h3>Contact Section</h3>
+          <div class="row">
+            <div class="col-4 d-flex justify-content-center">
+              <a href="https://www.linkedin.com/in/garasp"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <a href="https://www.facebook.com/peter.garas1"><i class="bi bi-facebook"></i></a>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <a href="mailto:pgaras@usf.edu"><i class="bi bi-envelope"></i></a>
+            </div>        
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+      <!-- Footer section -->
+      <section id="footer-section" class="container-fluid">        
+        <div class="d-flex justify-content-center">
+          <h5>&copy; Peter Garas 2021</h5>
+        </div>      
+      </section>
+    </footer>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
