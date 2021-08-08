@@ -65,7 +65,7 @@ input {
 #triangle {
   position: absolute;
   top: 35px;
-  left: 10px;
+  left: 9px;
   width: 0; 
   height: 0; 
   border-left: 60px solid transparent;
