@@ -1,3 +1,4 @@
-function launchProject(value) {
-  document.getElementById("frame").setAttribute("src", value);
+function launchProject(type, location) {
+  document.getElementById("frame").setAttribute("src", location);
+  document.getElementById("staticBackdropLabel").innerHTML = type;
 }
