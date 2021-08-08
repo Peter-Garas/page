@@ -19,8 +19,7 @@ body:after {
 
 #game-container { 
   width: 600px; 
-  margin: 0 auto; 
-  border: 1px solid black;
+  margin: 0 auto;
   text-align: center; 
   font-family: "Open Sans", sans-serif; 
   font-weight: 100;
