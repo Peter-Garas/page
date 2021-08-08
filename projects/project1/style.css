@@ -17,7 +17,7 @@ body:after {
 }
 
 #game-container { 
-  width: 600px; 
+  width: 300px; 
   margin: 0 auto; 
   margin-top: 50px; 
   border: 1px solid black;
