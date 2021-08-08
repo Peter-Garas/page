@@ -17,6 +17,10 @@ body:after {
     z-index: -1;
 }
 
+p {
+  font-size: 10px;
+}
+
 #game-container { 
   width: 600px; 
   margin: 0 auto; 
