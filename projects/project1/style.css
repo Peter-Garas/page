@@ -17,19 +17,15 @@ body:after {
     z-index: -1;
 }
 
-#question {
-  width: 50px;
-}
+
 
 #game-container { 
   width: 600px; 
   margin: 0 auto; 
-  margin-top: 50px; 
   border: 1px solid black;
   text-align: center; 
   font-family: "Open Sans", sans-serif; 
   font-weight: 100;
-  font-size: 10px;
 }
 
 input {
