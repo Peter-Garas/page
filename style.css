@@ -177,11 +177,10 @@ p, span {
 .iframe-container {
   overflow: hidden;
   padding-top: 56.25%;
-  position: relative
+  position: relative;
 }
 
-#frame {
-   
+#frame {   
    border: 0;
    height: 100%;
    left: 0;
