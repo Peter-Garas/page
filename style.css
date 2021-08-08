@@ -180,7 +180,7 @@ p, span {
   position: relative
 }
 
-.iframe-container iframe {
+#frame {
    
    border: 0;
    height: 100%;
