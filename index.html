@@ -208,6 +208,12 @@
             </div>
             <div class="modal-body iframe-container">
               <iframe id="frame" loading="lazy" allowfullscreen></iframe>
+	      <script>
+                window.setTimeout(function () {
+                   var iframe = document.getElementById('myIframe');
+                   iframe.setAttribute('src', 'http://...');
+                   }, 5000);    
+             </script>
             </div>
           </div>
         </div>
