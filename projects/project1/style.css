@@ -17,7 +17,9 @@ body:after {
     z-index: -1;
 }
 
-
+#question {
+  width: 50px;
+}
 
 #game-container { 
   width: 600px; 
