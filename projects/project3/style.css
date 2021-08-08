@@ -12,7 +12,7 @@ body {
   color: #f6a786;
   font-family: Handlee;
   text-shadow: 2px 2px #aa956e;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 h1 {
