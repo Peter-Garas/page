@@ -17,7 +17,7 @@ body {
 
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -28,12 +28,12 @@ h1 {
 #ui-container h3 {
   margin: 0;
   display: inline-block;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
 }
 
 #ui-container h3:first-child {
-  margin-right: 40px;
+  margin-right: 35px;
 }
 
 #card-container {
