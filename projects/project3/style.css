@@ -39,6 +39,7 @@ h1 {
 #card-container {
   font-size:0;
   margin: 50px auto;
+  height: 100%
   width: calc((var(--card-width) + 24px) * 4);
 }
 
