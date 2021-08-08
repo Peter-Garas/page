@@ -17,10 +17,6 @@ body:after {
     z-index: -1;
 }
 
-#question {
-  width: 50px;
-}
-
 #game-container { 
   width: 600px; 
   margin: 0 auto; 
@@ -33,7 +29,7 @@ body:after {
 input {
   font-size: 22px;
   text-align: center;
-  width: 240px;
+  width: 100px;
 }
 
 #eight-ball {
