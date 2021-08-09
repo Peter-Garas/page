@@ -182,7 +182,7 @@ p, span {
 
 #frame {   
    border: 0;
-   height: 100%;
+   height: 100vh;
    left: 0;
    position: absolute;
    top: 0;
