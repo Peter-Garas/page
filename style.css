@@ -111,8 +111,8 @@ p, span {
 }
 
 .carousel-item img  { 
-  width: clamp(250px, 60vw, 350px);
-  height: clamp(250px, 60vw, 350px);
+  width: clamp(300px, 60vw, 400px);
+  height: clamp(300px, 60vw, 400px);
   object-fit:cover;
 }
 
