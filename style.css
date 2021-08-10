@@ -192,3 +192,6 @@ p, span {
   padding-top: 0;
   padding-bottom: 0;
 }
+.modal-dialog {
+    overflow-y: initial !important
+}
