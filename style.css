@@ -22,7 +22,7 @@
     url(img/Hero-image.jpg);
   background-size: cover;
   background-position: center;
-  padding: clamp(100px, 65vh, 250px) 0;
+  padding: clamp(100px, 10vh, 250px) 0;
 }
 
 #profile-img {
