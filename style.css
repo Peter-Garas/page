@@ -100,6 +100,10 @@ p, span {
   padding: clamp(50px, 20vh, 100px) 0;
 }
 
+.specialistBadge {
+  cursor: pointer;
+}
+
 #inspiration-section {
   background-color: #171717;
   padding: clamp(20px, 20vh, 100px) 0;
