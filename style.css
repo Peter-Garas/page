@@ -102,6 +102,8 @@ p, span {
 
 .specialistBadge {
   cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 50%;
 }
 
 #inspiration-section {
