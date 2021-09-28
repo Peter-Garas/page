@@ -33,8 +33,8 @@
   background-position: center;
   border: 20px solid rgb(48, 46, 46);
   border-radius: 50%;
-  width: clamp(250px, 20vw, 300px);
-  height: clamp(250px, 20vw, 300px);
+  width: clamp(300px, 20vw, 350px);
+  height: clamp(300px, 20vw, 350px);
 } 
 
 h2 {
