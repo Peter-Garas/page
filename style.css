@@ -77,7 +77,6 @@ p, span {
 #skills-section img {
   width: clamp(10px, 60vw, 100px);
   filter: grayscale(70%);
-  height: clamp(10px, 60vw, 100px);
   padding: 10px;
 }
  
