@@ -92,7 +92,7 @@ p, span {
   margin-right: auto;
 }
 #projects-section {
-  background-color: #171717;
+  background-color: #444444;
   padding: clamp(50px, 20vh, 100px) 0;
 }
 
