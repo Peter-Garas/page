@@ -92,7 +92,7 @@ p, span {
   margin-right: auto;
 }
 #projects-section {
-  background-color: #444444;
+  background-color: #171717;
   padding: clamp(50px, 20vh, 100px) 0;
 }
 
@@ -108,7 +108,7 @@ p, span {
 }
 
 #inspiration-section {
-  background-color: #171717;
+  background-color: #444444;
   padding: clamp(20px, 20vh, 100px) 0;
 }
 
@@ -136,7 +136,7 @@ p, span {
 }
 
 #contact-section {
-  background-color: #444444;
+  background-color: #171717;
   padding: clamp(100px, 20vh, 100px) 0;
 }
 
@@ -145,7 +145,7 @@ p, span {
 }
 
 #footer-section {
-  background-color: #171717;
+  background-color: #444444;
   padding: 5px;
 }
 
